@@ -10,7 +10,7 @@ Muito prazer! Este é meu portfólio pessoal, onde você pode acompanhar meus pr
 
 ## 🔗Link de Acesso
 
-[Clique aqui para acessar](https://danielemidio1988.github.io/Portfolio)
+[Clique aqui para acessar]([https://danielemidio1988.github.io/Portfolio](https://danielemidio1988.github.io/portfolio-daniel-emidio/))
 
 ## 💡Programas utilizados:
 - VSCode
