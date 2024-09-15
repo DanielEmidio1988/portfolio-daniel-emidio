@@ -1,0 +1,30 @@
+/*
+
+//////////////////////////////////  STYLES
+
+*/
+
+@import url('./styles/base.css');
+@import url('./styles/buttons_icons.css');
+@import url('./styles/fonts.css');
+
+/*
+
+//////////////////////////////////  PAGE
+
+*/
+
+@import url('./styles/landing-page.css');
+
+/*
+
+//////////////////////////////////  COMPONENTS
+
+*/
+
+@import url('./styles/footer.css');
+@import url('./styles/header.css');
+
+
+
+

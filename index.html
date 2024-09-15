@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olá, meu nome é Daniel!</title>
+    <link rel="shortcurt icon" href="./assets/Icon-readme.png"/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <div class="container-on" id="container">
+    <header>
+        <!-- Fundo Escuro -->
+        <nav class="main-menu vt-inner-padding-min">
+            <div class="main-logo ht-inner-padding-min">
+                <img src="./assets/logo-top-light.svg" alt="logo-daniel-emidio" class="on" id="iconLamp" onclick="ligaDesliga(event)">
+            </div>
+            <nav class="main-options">
+                <ul id="main-options-menu">
+                    <li><a class="menu-link" href="#id-welcome">Inicio</a></li>
+                    <li><a class="menu-link" href="#id-about">Sobre</a></li>
+                    <li><a class="menu-link" href="#id-experience">Experiência</a></li>
+                    <li><a class="menu-link" href="#id-portfolio">Portfólio</a></li>
+                    <li><a class="menu-link" href="#id-contact">Contato</a></li>
+                </ul>
+                <div class="main-options-hamburguer" onclick="toggleMenu()">
+                    <span class="hamburguer"></span>
+                    <span class="hamburguer"></span>
+                    <span class="hamburguer"></span>
+                </div>
+            </nav>
+        </nav>
+    </header>
+
+    <main class="container-main">
+        <!-- SEÇÃO DE BOAS VINDAS -->
+        <section class="body-welcome" id="id-welcome">
+            <div class="welcome-text">
+                <h3 class="textoOn" id="texto">Olá! Meu nome é</h3><p><h1 class="h1On" id="h1">Daniel Emidio</h1></p> <h3 class="textoOn" id="texto">sou desenvolvedor web fullstack, gosto de encarar desafios e agregar valor aos projetos em que trabalho. Explore aqui meus trabalhos mais recentes. </h3>
+            <button onclick="scrollToSection('id-about')" class="button-to-presentation">Muito prazer! ツ</button>
+            </div>
+            <div class="welcome-photo">
+                <img src="./assets/foto-intro.png" alt="Foto Introdução">
+            </div>
+        </section>
+
+        <!-- SEÇÃO DE APRESENTAÇÃO PROFISSIONAL -->
+        <section class="body-presentation vt-inner-padding-md" id="id-about">
+            <div class="presentation-about animation ht-inner-padding-md" id="presentation-about">
+                <h2>Quem sou eu?</h2> </br>
+                <h3>Um pouco sobre mim</h3>         
+                <p>
+                    Sou desenvolvedor front-end com mais de 2 anos de experiência em criar soluções web. Focado em linguagens como JavaScript, TypeScript e ReactJs, desenvolvo soluções que combinam performance, usabilidade e design responsivo. Além disso, minhas habilidades incluem Wordpress, PHP, HubL, Firebase, MongoDB, NodeJs + ExpressJs e HTML + CSS. 
+                </p>
+                <p>
+                    Atualmente estou ampliando meus conhecimentos para o desenvolvimento mobile, focando em React Native, Dart, Kotlin e Java com o objetivo de oferecer soluções completas, tanto para web quanto para dispositivos móveis.
+                </p>
+                <p>
+                    Estou sempre aberto a novas oportunidades que me permitam crescer profissionalmente e agregar valor a projetos inovadores. Se estiver interessado, fique à vontade para entrar em contato comigo.
+                </p>          
+            </div>
+            <div class="presentation-photo animation" id="presentation-photo">
+                <img src="./assets/foto-perfil-daniel.png" alt="foto-daniel-emidio">
+            </div>
+        </section>
+
+        <!-- SEÇÃO DE EXPERIÊNCIA PREVIA -->
+        <section class="body-experience vt-inner-padding-sm" id="id-experience">
+                <div class="experience-logo animation section-title vt-inner-padding-sm" id="experience-logo">
+                    <h2>Habilidades / Experiência</h2>
+                    <h3>Um breve resumo sobre minha jornada ao longo da minha carreira</h3>
+                </div>
+                <div class="experience-menu">
+
+                    <div class="box-skills">
+                        <div class="section-title animation" id="box-skills-title">
+                            <h3>Minhas Skills</h3>
+                            <p>Minhas principais habilidades técnicas</p>
+                        </div>
+                        
+                        <div class="skills-info animation" id="skills-info">                           
+                      
+                        </div>
+                    </div>
+
+                    <section class="box-experience animation" id="box-experience">
+                        <div class="section-title vt-inner-padding-sm" >
+                            <h3 data-anime="left">Minhas experiências</h3>
+                            <p class="subtitle-experience" data-anime="left">Minha jornada profissional como desenvolvedor</p>
+                        </div>
+                        
+                        <div class="experience-info" data-anime="bottom">
+                            <h3>Desenvolvedor Full Stack <span>@Workana</span></h3>
+                            <p><span>11/2022 a atual | São Paulo, SP</span></p>
+                            <br>
+                            <p>Responsável pelo desenvolvimento de soluções web conforme demanda dos clientes, com foco em soluções personalizadas, utilizando Javascript,  HTML, CSS, ReactJs, Google App Script, Node.js, Firebase, MongoDB e Wordpress.</p>
+                        </div>
+
+                        <div class="experience-info" data-anime="bottom">
+                            <h3>Desenvolvedor FrontEnd Jr <span>@Agencia Inbound</span></h3>
+                            <p><span>08/2023 a 09/2024 | São Paulo, SP</span></p>
+                            <br>
+                            <p>Atuei no desenvolvimento e estruturação de novos módulos, plugins, temas e páginas web personalizadas, adaptativas e responsivas. Utilizei tecnologias como Javascript, SCSS, Wordpress, HubL, PHP, Docker, Node.js, Express.js e ReactJs para entregar soluções escaláveis e robustas. </p>
+                        </div>
+
+                        <div class="experience-info" data-anime="bottom">
+                           <h3>Desenvolvedor FullStack Jr <span>@Real Soluções</span></h3>
+                           <p><span>02/2023 a 07/2023 | São Paulo, SP</span></p>
+                           <br>
+                           <p>Participei no desenvolvimento e manutenção de novas features, com foco em escalabilidade e manutenção das soluções. Usei Node.js, Next.js, Firebase, Google App Script, Javascript e SQL para garantir robustez no sistema.</p>
+                        </div>
+  
+                    </section>
+                   
+                </div>
+        </section>
+
+        <!-- SEÇÃO PARA APRESENTAÇÃO DO PORTFÓLIO -->
+        <section class="body-portfolio" id="id-portfolio">
+            <div class="portfolio-main-projects">
+                <div class="main-projects-logo section-title vt-inner-padding-sm animation" id="portfolio-title">
+                    <h2>Principais Projetos</h2>
+                    <h3>Alguns dos meus projetos pessoais</h3>
+                </div>
+                <div class="main-projects-options vt-inner-padding-sm animation" id="main-projects-options">
+
+                </div>
+                <div class="portfolio-more vt-inner-padding-sm section-title animation" id="portfolio-cta">
+                    <a href="https://github.com/DanielEmidio1988" target="_blank"><h3>Veja mais projetos</h3></a>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <footer class="footer animation" id="footer">
+       
+        <div class="footer-menu vt-inner-padding-md" id="id-contact">
+            <img class="footer-img" src="./assets/logo-footer.png" alt="foto-logo-meus-contatos">
+            <ul>
+                <li class="footer-text"><h2>Vamos conversar?</h3></li>
+                <li class="footer-text"><h3>Se deseja marcar um bate-papo, é só entrar em contato.</h3></li> 
+                <li class="footer-text"><br></li>   
+                <li class="footer-text">emidio.daniel@hotmail.com</li>
+                <li class="footer-text">(11) 96831-8885</li>
+                <li class="footer-text"><br></li>  
+                <li class="footer-text">
+                    <div class="social-network">
+                        <a href="https://github.com/DanielEmidio1988" target="_blank"><img class="icon-social-media" src="./assets/github-footer.png" alt="icon-github"></a>
+                        <a href="https://www.linkedin.com/in/danielemidio1988/" target="_blank"><img class="icon-social-media" src="./assets/linkedin-footer.png" alt="icon-linkedin"></a>
+                    </div>
+                </li>  
+                <li class="footer-text"><br></li>       
+            </ul>  
+        </div>
+
+        <div class="footer-contacts">
+            <span><a href="#id-welcome">Desenvolvido com ♥ por Daniel Emidio.</a></span>
+        </div>
+
+    </footer>
+</div>
+</body>
+</html>
